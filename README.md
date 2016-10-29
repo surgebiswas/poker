@@ -11,6 +11,7 @@ This repository contains:
 
 ## References
 [1] http://www.computerpokercompetition.org
+
 [2] http://poker.cs.ualberta.ca
 
 
