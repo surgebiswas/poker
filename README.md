@@ -26,24 +26,29 @@ The agent will be invoked using a command of the following form `/path/to/your/a
 python /path/to/your/agent.py $1 $2
 ```
 
-*MATCH STATE STRING* - The match state string specification is as described in the communication protocol document published by the ACPC [3]. The following is an excerpt that provides the relevant information for understanding the match state string.
+**MATCH STATE STRING** - The match state string specification is as described in the communication protocol document published by the ACPC [3]. The following is an edited excerpt that provides the relevant information for understanding the match state string for No Limit Texas Hold'em. The match state string has the following format:
 
 ```
-'MATCHSTATE:' <position> <handNumber> <betting> <cards> <position> := <unsigned integer> ':'
-<handNumber>:= <unsigned integer> ':'
-<betting> := { <limitBetting> } { <nolimitBetting> } ':'
-<limitBetting> := ( <round1LimitBetting>
-{ | <round1LimitBetting> '/' <round2LimitBetting> ... } ) <roundXLimitBetting> = <limitAction>*
-<limitAction> := <fold> | <call> | <limitRaise>
-<fold> := 'f'
-<call> := 'c'
-<limitRaise> := 'r'
-<nolimitBetting> := ( <round1NolimitBetting>
-{ | <round1NolimitBetting> '/' <round2NolimitBetting> ... } ) <roundXNolimitBetting> := <noLimitAction>*
-<noLimitAction> := <fold> | <call> | <nolimitRaise> <nolmitRaise> := 'r' <nolimitRaiseSize> <nolimitRaiseSize> := <unsigned integer>
+S-> MATCHSTATE:0:30:cc/:9s8h|/8c8d5c
+
+'MATCHSTATE:' <position>:<handNumber>:<nolimitbetting>:<cards>
+<position> := <unsigned integer>
+
+<handNumber> := <unsigned integer>
+
+<nolimitBetting> := <round1NolimitBetting> '/' <round2NolimitBetting> ...
+  <roundXNolimitBetting> := <fold> | <call/check> | <nolimitRaise> 
+    <fold> := 'f'
+    <call/check> := 'c'
+    <nolmitRaise> := 'r'<unsigned integer>
+
 <cards> := <holeCards> <boardCards>
-<holeCards> := <player1Cards> '|' <player2Cards> { '|' <player3Cards> ... } <boardCards> := <round1BoardCards> { '/' <round2BoardCards> ... }
-<playerXCards> := '' | <card> { <card> ... } <roundXBoardCards> := { <card> ... }
+  <holeCards> := <player1Cards> '|' <player2Cards> '|' ...
+    <playerXCards> := '' | <card> { <card> ... } 
+  <boardCards> := <round1BoardCards> { '/' <round2BoardCards> ... }
+
+
+<roundXBoardCards> := { <card> ... }
 <card> := <rank> <suit>
 <rank> := '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 'T' | 'J' | 'Q' | 'K' | 'A' <suit> := 's' | 'h' | 'd' | 'c'
 ```
