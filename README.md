@@ -5,9 +5,11 @@ Our goal is to further our understanding of how we make decisions under pressure
 
 This repository contains:
 
-1. Code to manage poker (no-limit Texas Hold'em) games between multiple agents. Games are managed, in large part, using the API made available by the Annual Computer Poker Competition (ACPC) [1]. This API was written in C by the Computer Poker Research Group at the University of Alberta [2]. This code was edited by Surge Biswas to simplify the interface for compatibility with higher level languages (e.g. R and Python). 
+1. Code to manage poker (no-limit Texas Hold'em) games between multiple agents. Games are managed, in large part, using the API made available by the Annual Computer Poker Competition (ACPC) [1]. This API was written in C by the Computer Poker Research Group at the University of Alberta [2]. This code was edited by Surge Biswas to simplify the interface for compatibility with higher level languages (e.g. R and Python). This code is contained in the "project_acpc_server" folder. 
 
 2. Community submitted computational poker agents.
+
+When programming your agent, you do not need to worry about directly interfacing with the ACPC interface. 
 
 ## References
 [1] http://www.computerpokercompetition.org
