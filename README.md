@@ -26,14 +26,34 @@ The agent will be invoked using a command of the following form `/path/to/your/a
 python /path/to/your/agent.py $1 $2
 ```
 
-### Input 
-* MATCH STATE STRING *
+*MATCH STATE STRING* - The match state string specification is as described in the communication protocol document published by the ACPC [3]. The following is an excerpt that provides the relevant information for understanding the match state string.
 
+```
+'MATCHSTATE:' <position> <handNumber> <betting> <cards> <position> := <unsigned integer> ':'
+<handNumber>:= <unsigned integer> ':'
+<betting> := { <limitBetting> } { <nolimitBetting> } ':'
+<limitBetting> := ( <round1LimitBetting>
+{ | <round1LimitBetting> '/' <round2LimitBetting> ... } ) <roundXLimitBetting> = <limitAction>*
+<limitAction> := <fold> | <call> | <limitRaise>
+<fold> := 'f'
+<call> := 'c'
+<limitRaise> := 'r'
+<nolimitBetting> := ( <round1NolimitBetting>
+{ | <round1NolimitBetting> '/' <round2NolimitBetting> ... } ) <roundXNolimitBetting> := <noLimitAction>*
+<noLimitAction> := <fold> | <call> | <nolimitRaise> <nolmitRaise> := 'r' <nolimitRaiseSize> <nolimitRaiseSize> := <unsigned integer>
+<cards> := <holeCards> <boardCards>
+<holeCards> := <player1Cards> '|' <player2Cards> { '|' <player3Cards> ... } <boardCards> := <round1BoardCards> { '/' <round2BoardCards> ... }
+<playerXCards> := '' | <card> { <card> ... } <roundXBoardCards> := { <card> ... }
+<card> := <rank> <suit>
+<rank> := '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 'T' | 'J' | 'Q' | 'K' | 'A' <suit> := 's' | 'h' | 'd' | 'c'
+```
 
 ## References
 [1] http://www.computerpokercompetition.org
 
 [2] http://poker.cs.ualberta.ca
+
+[3] http://www.computerpokercompetition.org/downloads/documents/protocols/protocol.pdf
 
 
 
