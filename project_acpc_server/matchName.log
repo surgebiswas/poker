@@ -1,0 +1,15 @@
+# name/game/hands/seed matchName holdem.nolimit.2p.reverse_blinds.game 10 0
+#--t_response 600000
+#--t_hand 600000
+#--t_per_hand 7000
+STATE:0:r12919c/cr18258r20000c//:5d5c|9hQd/8dAs8s/4h/6d:20000|-20000:Alice|Bob
+STATE:1:r6465c/r16983c/r19711c/r19842r19989c:6sKs|5dJd/2sTh2h/Qh/8h:19989|-19989:Bob|Alice
+STATE:2:cr15013r20000c///:Ah8s|2h4c/Qd7h6c/4s/Jc:-20000|20000:Alice|Bob
+STATE:3:cr11387r20000c///:4s8s|6hJd/QhJs9d/Qc/9h:-20000|20000:Bob|Alice
+STATE:4:r6476c/cc/cc/r12533c:5s4c|Kc7d/KsAsJd/Th/7h:-12533|12533:Alice|Bob
+STATE:5:r8069r19695r20000c///:KhTh|8s7d/9c8d5c/Qd/Td:20000|-20000:Bob|Alice
+STATE:6:r16425c/r17869r19604c/r19759c/r19937c:Kc8h|5cAs/9dAh4d/7h/Qs:-19937|19937:Alice|Bob
+STATE:7:r12376c/cc/r14776r18620r20000c/:Ah6c|2c3d/5d6hTc/6d/Td:20000|-20000:Bob|Alice
+STATE:8:r3778r18848r20000c///:2hAd|Js7c/4d3s3c/Jh/7d:-20000|20000:Alice|Bob
+STATE:9:cr6068c/r18946r20000c//:Qd5h|9h2d/AsKs3h/Th/8c:20000|-20000:Bob|Alice
+SCORE:-112459|112459:Alice|Bob
