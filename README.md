@@ -52,7 +52,10 @@ python /path/to/your/agent.py $1 $2
       <suit> := 's' | 'h' | 'd' | 'c'
 ```
 A few things to note:
-- Positioning is 0-based, meaning the first position is denoted by 0, the second position by 1, etc.
+- The `<position>` field tells the client their position relative to the dealer button. A value of 0 indicates that for the current hand, the client is the first player after the button (the small blind in ring games, or the big blind in reverse-blind heads-up games.)
+- The `<handNumber>` is simply an identifier for the current hand. Clients should make no assumption about these values, other than that it will be unique across hands within a match, and that it will not change within a single hand.
+- `<betting>` is a list of actions taken by all players. There is no distinction made between calling and checking, or betting and raising. The raise action includes a size, which indicates the total number of chips the player will have put into the pot after raising (*i.e. the value they are raising to, not the value they are raising by.*) 
+- `<cards>` is the complete set of cards visible to the player, given their `<position>`. `<holecards>` describes the view of the private cards, and the number of `<playerCards>` sections is determined by the game being player. For example, heads-up games will have two sections, 3 player ring games will have 3 sections, and so on. Each `<playerCard>` section will either be an empty string, indicating that the player does not know what those cards are, or a number of `<card>` strings determined by the game. A `<card>` is simply two characters, one for the rank and one for the suit. The `<boardCards>` description will also have a number of sections, one for each round, up to the current round as indicated by the `<nolimitbetting>`. The number of `<cards>` in each section is fixed, and determined by the game. 
 
 Here are two example sequences from a two player no-limit game:
 
