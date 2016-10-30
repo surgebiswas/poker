@@ -83,6 +83,12 @@ MATCHSTATE:1:31:r300r900c/r1800r3600r9000c/r20000c/:KsJs|JdTc/6dJc9c/Kh/Qc <-> Y
 ```
 Everything before the '<=>' is the match state string, and everything after is an explanation of what's going on.
 
+## Submitting your agent
+
+1. Before you get started programming your agent, you should clone this repository. 
+2. Then create a folder that is named after what will be your username. Write all of your code in this folder. 
+3. For your agent(s) specifically, create an executable that meets the interface described above. This executable should be directly under your user folder (e.g. `./poker/your_user_folder/your_agent.sh` NOT `./poker/your_user_folder/agents/your_agent.sh`).
+
 
 ## References
 [1] http://www.computerpokercompetition.org
