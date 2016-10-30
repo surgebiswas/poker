@@ -1,7 +1,9 @@
 # Johnny Harv's Bodacious Poker Tour Goes Computational
 *Before machines take over the world, they will play poker.*
 
-Staying true to it's name, the folks at Johnny Harv's are making a bodaciously outrageous new move into the world of computational poker. We challenge **you** to build your own poker mean-machine and submit it for battle in the form of no-limit Texas Hold'em. To get started, clone this repository and follow the instructions below to begin programming and submitting your agents!
+Staying true to it's name, the folks at Johnny Harv's are making a bodaciously outrageous new move into the world of computational poker. We challenge **you** to build your own poker mean-machine and submit it for battle in the form of no-limit Texas Hold'em. Every so often (frequency TBD) we'll pit all submitted agents in sit-and-go style tournaments and keep track of everyone's performance. 
+
+To get started, clone this repository and follow the instructions below to begin programming and submitting your agents.
 
 This repository contains:
 
