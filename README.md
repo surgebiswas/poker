@@ -57,7 +57,7 @@ A few things to note:
 Here are two example sequences from a two player no-limit game:
 
 ```
-MATCHSTATE:0:30::9s8h| <=> You are the first person after the dealer and are dealt a 9 of spades and 8 of hearts.
+MATCHSTATE:0:30::9s8h| <=> This is the 30th hand. You are the first person after the dealer and are dealt a 9 of spades and 8 of hearts.
 MATCHSTATE:0:30:c:9s8h| <=> You call
 MATCHSTATE:0:30:cc/:9s8h|/8c8d5c <=> Villain (other person) calls. Flop is 8 of clubs, 8 of diamonds, 5 of clubs.
 MATCHSTATE:0:30:cc/r250:9s8h|/8c8d5c <=> You raise 250
@@ -67,16 +67,16 @@ MATCHSTATE:0:30:cc/r250c/r500c/:9s8h|/8c8d5c/6s/2d <=> Villain calls. River is 2
 MATCHSTATE:0:30:cc/r250c/r500c/r1250:9s8h|/8c8d5c/6s/2d <=> You raise 1250
 MATCHSTATE:0:30:cc/r250c/r500c/r1250c:9s8h|9c6h/8c8d5c/6s/2d <=> Villain calls. At showdown Villain reveals 9c6h. You win with trip 8's.
 
-MATCHSTATE:1:31::|JdTc
-MATCHSTATE:1:31:r300:|JdTc
-MATCHSTATE:1:31:r300r900:|JdTc
-MATCHSTATE:1:31:r300r900c/:|JdTc/6dJc9c
-MATCHSTATE:1:31:r300r900c/r1800:|JdTc/6dJc9c
-MATCHSTATE:1:31:r300r900c/r1800r3600:|JdTc/6dJc9c
-MATCHSTATE:1:31:r300r900c/r1800r3600r9000:|JdTc/6dJc9c
-MATCHSTATE:1:31:r300r900c/r1800r3600r9000c/:|JdTc/6dJc9c/Kh
-MATCHSTATE:1:31:r300r900c/r1800r3600r9000c/r20000:|JdTc/6dJc9c/Kh
-MATCHSTATE:1:31:r300r900c/r1800r3600r9000c/r20000c/:KsJs|JdTc/6dJc9c/Kh/Qc
+MATCHSTATE:1:31::|JdTc <=> You are second after the dealer, and were dealt a Jack of diamonds and a ten of clubs.
+MATCHSTATE:1:31:r300:|JdTc <=> Villain raises 300.
+MATCHSTATE:1:31:r300r900:|JdTc <=> You re-raise to 900.
+MATCHSTATE:1:31:r300r900c/:|JdTc/6dJc9c <=> Villain calls, flop is 6 of diamonds, Jack of clubs, and 9 of clubs.
+MATCHSTATE:1:31:r300r900c/r1800:|JdTc/6dJc9c <=> Villain raises to 1800. 
+MATCHSTATE:1:31:r300r900c/r1800r3600:|JdTc/6dJc9c <=> You re-raise to 3600.
+MATCHSTATE:1:31:r300r900c/r1800r3600r9000:|JdTc/6dJc9c <=> Villain re-raises to 9000.
+MATCHSTATE:1:31:r300r900c/r1800r3600r9000c/:|JdTc/6dJc9c/Kh <=> You Call. King of hearts on the turn.
+MATCHSTATE:1:31:r300r900c/r1800r3600r9000c/r20000:|JdTc/6dJc9c/Kh <=> Villain goes all in.
+MATCHSTATE:1:31:r300r900c/r1800r3600r9000c/r20000c/:KsJs|JdTc/6dJc9c/Kh/Qc <-> You call. Queen of clubs on the river. You lose to villain who has a two pair, Kings and Jacks. 
 ```
 Everything before the '<=>' is the match state string, and everything after is an explanation of what's going on.
 
