@@ -75,13 +75,25 @@ MATCHSTATE:1:31:r300:|JdTc <=> Villain raises 300.
 MATCHSTATE:1:31:r300r900:|JdTc <=> You re-raise to 900.
 MATCHSTATE:1:31:r300r900c/:|JdTc/6dJc9c <=> Villain calls, flop is 6 of diamonds, Jack of clubs, and 9 of clubs.
 MATCHSTATE:1:31:r300r900c/r1800:|JdTc/6dJc9c <=> Villain raises to 1800. 
-MATCHSTATE:1:31:r300r900c/r1800r3600:|JdTc/6dJc9c <=> You re-raise to 3600.
+MATCHSTATE:1:31:r300r900c/r1800r3600:|JdTc/6dJc9c <=> You re-raise to 3600. 
 MATCHSTATE:1:31:r300r900c/r1800r3600r9000:|JdTc/6dJc9c <=> Villain re-raises to 9000.
 MATCHSTATE:1:31:r300r900c/r1800r3600r9000c/:|JdTc/6dJc9c/Kh <=> You Call. King of hearts on the turn.
 MATCHSTATE:1:31:r300r900c/r1800r3600r9000c/r20000:|JdTc/6dJc9c/Kh <=> Villain goes all in.
 MATCHSTATE:1:31:r300r900c/r1800r3600r9000c/r20000c/:KsJs|JdTc/6dJc9c/Kh/Qc <-> You call. Queen of clubs on the river. You lose to villain who has a two pair, Kings and Jacks. 
 ```
 Everything before the '<=>' is the match state string, and everything after is an explanation of what's going on.
+
+**OUTPUT FILE** - This will be an absolute file path to which your agent must print its action given the match state input string. Valid actions consist of calling/checking (checking is just calling in a no-raise situation), folding, and raising. Calling/checking and folding are specified by the characters `c` and `f`, respectively. A raise is denoted by `r<unsigned integer>` (e.g. `r220` for raising it to 220). Note here that by "raising to 220" we mean that for this current hand the player is commiting a total of 220 to the pot, NOT that he is raising by 220. An example output file may look like this
+```
+c
+```
+which denotes a call/check as the situation may be. Or like this,
+```
+r1200
+```
+which specifies a raise to 1200. 
+
+Please do not terminate the printed action string with any new line or carriage return character. 
 
 ## Submitting your agent
 
