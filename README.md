@@ -1,7 +1,7 @@
 # Johnny Harv's Bodacious Poker Tour Goes Computational
-Poker AI
+*Before machines take over the world, they will play poker.*
 
-Our goal is to further our understanding of how we make decisions under pressure with imperfect information by studying the game of poker. Even if you play the game a lot, it's difficult to crystallize exactly why and how you make certain decisions in different situations. Are there other strategies you, or people in general, might be missing? Our hope is that in the process of programming an agent to play, or learn how to play, poker we might improve our understanding of the game and our own decision making processes.
+Staying true to it's name, the folks at Johnny Harv's are making a bodaciously outrageous new move into the world of computational poker. We challenge **you** to build your own poker mean-machine and submit it for battle in the form of no-limit Texas Hold'em. 
 
 This repository contains:
 
@@ -88,7 +88,11 @@ Everything before the '<=>' is the match state string, and everything after is a
 1. Before you get started programming your agent, you should clone this repository. 
 2. Then create a folder that is named after what will be your username. Write all of your code in this folder. 
 3. For your agent(s) specifically, create an executable that meets the interface described above. This executable should be directly under your user folder (e.g. `./poker/your_user_folder/your_agent.sh` NOT `./poker/your_user_folder/agents/your_agent.sh`).
-
+4. Create a file `agents.txt` directly under your user folder. This file should contain the names of your agent scripts one line after another. For example,
+```
+my_agent1.sh
+my_agent2.sh
+```
 
 ## References
 [1] http://www.computerpokercompetition.org
