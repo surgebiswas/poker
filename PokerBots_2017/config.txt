@@ -1,0 +1,44 @@
+BIG_BLIND = 2
+STARTING_STACK = 200
+NUMBER_OF_HANDS = 100
+CONNECTION_TIMEOUT = 10
+TIME_RESTRICTION_PER_GAME = 10
+ENFORCE_TIMING_RESTRICTION = false
+HAND_LOG_FILENAME = gamelog
+DISPLAY_ILLEGAL_ACTIONS = false
+DUPLICATE = false
+
+# TYPE can be FOLDER, SOCKET, RANDOM, or CHECKFOLD
+# NAME is the name of bot and determines which persistent datastore the bot
+#      accesses. For example, if you want to test a bot that learns over time
+#      keep the same name so it can access the data it stored in previous
+#      matches.
+# RESET_KEYS determines whether the key/value store is cleared when starting
+#      up. It's false by default.
+
+# FOLDER: Automatically compiles and runs a bot from source.
+# Requires PATH, which is either an absolute or relative (to the jar) path
+# pointing to the source code.
+#   PLAYER_1_TYPE = FOLDER 
+#   PLAYER_1_PATH = .
+#   PLAYER_1_SCONS_ARGS = 
+#   PLAYER_1_NAME = FOLDERBOT
+#   PLAYER_1_RESET_KEYS = false
+
+# SOCKET: Engine will wait for bot to connect to a designed socket.
+#   PLAYER_2_TYPE = SOCKET
+#   PLAYER_2_NAME = SOCKETBOT
+
+# RANDOM: Engine will use its own bot that plays randomly.
+#   PLAYER_1_TYPE = RANDOM
+#   PLAYER_1_NAME = RANDOMBOT
+
+# CHECKFOLD: Engine will use its own bot that checks/folds as appropriate.
+#   PLAYER_2_TYPE = CHECKFOLD
+#   PLAYER_2_NAME = CHECKFOLDBOT
+
+PLAYER_1_TYPE = SOCKET
+PLAYER_1_NAME = P1
+
+PLAYER_2_TYPE = RANDOM
+PLAYER_2_NAME = P2
