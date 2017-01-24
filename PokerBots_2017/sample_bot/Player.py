@@ -1,6 +1,7 @@
 import argparse
 import socket
 import sys
+import random
 
 """
 Simple example pokerbot, written in python.
@@ -10,6 +11,9 @@ necessary to connect with the engine and then always returns the same action.
 It is meant as an example of how a pokerbot should communicate with the engine.
 """
 class Player:
+    
+    
+    
     def run(self, input_socket):
         # Get a file-object for reading packets from the socket.
         # Using this ensures that you get exactly one packet per read.
@@ -35,7 +39,10 @@ class Player:
             word = data.split()[0]
             if word == "GETACTION":
                 # Currently CHECK on every move. You'll want to change this.
-                s.send("CHECK\n")
+                if random.random() < 0.5:
+                    s.send("RAISE:4\n")
+                else:
+                    s.send("CHECK\n")
             elif word == "REQUESTKEYVALUES":
                 # At the end, the engine will allow your bot save key/value pairs.
                 # Send FINISH to indicate you're done.
