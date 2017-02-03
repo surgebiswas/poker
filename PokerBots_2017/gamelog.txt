@@ -2,1292 +2,1294 @@
 Hand #1, P1 (0), P2 (0)
 P1 posts the blind of 1
 P2 posts the blind of 2
-Dealt to P1 [Qc 3c]
-Dealt to P2 [Th 7h]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [9c Jh Kc]
-P2 discards Th for Js
-P1 checks
-*** TURN *** (400) [9c Jh Kc] [2s]
-P2 checks
-P1 checks
-*** RIVER *** (400) [9c Jh Kc 2s] [2d]
-P1 shows [Qc 3c]
-P2 shows [7h Js]
-P2 wins the pot (400)
+Dealt to P1 [7c Tc]
+Dealt to P2 [9d 2s]
+P1 raises to 39
+P2 folds
+Uncalled bet of 37 returned to P1
+P1 wins the pot (4)
 
-Hand #2, P2 (200), P1 (-200)
+Hand #2, P2 (-2), P1 (2)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [Ah 3d]
-Dealt to P1 [9h 7c]
+Dealt to P2 [Ks 7c]
+Dealt to P1 [Qh 4h]
 P2 folds
 P1 wins the pot (3)
 
-Hand #3, P1 (-199), P2 (199)
+Hand #3, P1 (3), P2 (-3)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Ks 3d]
+Dealt to P2 [6h Qs]
+P1 raises to 75
+P2 folds
+Uncalled bet of 73 returned to P1
+P1 wins the pot (4)
+
+Hand #4, P2 (-5), P1 (5)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [3h 8d]
+Dealt to P1 [5h 2d]
+P2 raises to 80
+P1 folds
+Uncalled bet of 78 returned to P2
+P2 wins the pot (4)
+
+Hand #5, P1 (3), P2 (-3)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Tc Qs]
+Dealt to P2 [3s Kd]
+P1 folds
+P2 wins the pot (3)
+
+Hand #6, P2 (-2), P1 (2)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Jd 3d]
+Dealt to P1 [Th 2h]
+P2 calls
+P1 raises to 50
+P2 folds
+Uncalled bet of 48 returned to P1
+P1 wins the pot (4)
+
+Hand #7, P1 (4), P2 (-4)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Jd Ad]
+Dealt to P2 [3h 5s]
+P1 raises to 104
+P2 calls
+*** FLOP *** (208) [7s 4d Qs]
+P2 discards 3h for 6d
+P1 discards Jd for 5h
+P2 checks
+P1 checks
+*** TURN *** (208) [7s 4d Qs] [Ah]
+P2 checks
+P1 discards 5h for 9s
+P2 checks
+P1 bets 73
+P2 folds
+Uncalled bet of 73 returned to P1
+P1 wins the pot (208)
+
+Hand #8, P2 (-108), P1 (108)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Ac 6h]
+Dealt to P1 [7d 7h]
+P2 folds
+P1 wins the pot (3)
+
+Hand #9, P1 (109), P2 (-109)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [7d 4d]
+Dealt to P2 [6h 4c]
+P1 calls
+P2 checks
+*** FLOP *** (4) [Ac Js Ah]
+P2 checks
+P1 discards 4d for 8c
+P2 checks
+P1 checks
+*** TURN *** (4) [Ac Js Ah] [Tc]
+P2 discards 4c for Jd
+P1 discards 8c for 8h
+P2 bets 45
+P1 folds
+Uncalled bet of 45 returned to P2
+P2 wins the pot (4)
+
+Hand #10, P2 (-107), P1 (107)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Ad 9d]
+Dealt to P1 [Jh 2h]
+P2 calls
+P1 raises to 40
+P2 folds
+Uncalled bet of 38 returned to P1
+P1 wins the pot (4)
+
+Hand #11, P1 (109), P2 (-109)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [5h 8d]
+Dealt to P2 [2d 6d]
+P1 folds
+P2 wins the pot (3)
+
+Hand #12, P2 (-108), P1 (108)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [9h Ts]
+Dealt to P1 [Jd 2c]
+P2 calls
+P1 checks
+*** FLOP *** (4) [Qd 5d 7s]
+P1 discards 2c for 6s
+P2 discards 9h for 6c
+P1 checks
+P2 bets 47
+P1 folds
+Uncalled bet of 47 returned to P2
+P2 wins the pot (4)
+
+Hand #13, P1 (106), P2 (-106)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [2h 6s]
+Dealt to P2 [2c Jd]
+P1 folds
+P2 wins the pot (3)
+
+Hand #14, P2 (-105), P1 (105)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [7d Kc]
+Dealt to P1 [8c 3h]
+P2 folds
+P1 wins the pot (3)
+
+Hand #15, P1 (106), P2 (-106)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [As 8h]
+Dealt to P2 [9c 4d]
+P1 raises to 142
+P2 calls
+*** FLOP *** (284) [8s Tc 3h]
+P2 discards 4d for Td
+P1 checks
+P2 bets 57
+P1 folds
+Uncalled bet of 57 returned to P2
+P2 wins the pot (284)
+
+Hand #16, P2 (36), P1 (-36)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [7c Kh]
+Dealt to P1 [3h 6c]
+P2 folds
+P1 wins the pot (3)
+
+Hand #17, P1 (-35), P2 (35)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Qd Qs]
+Dealt to P2 [7h 8d]
+P1 raises to 178
+P2 calls
+*** FLOP *** (356) [2c 2d As]
+P2 discards 7h for 5s
+P1 checks
+P2 bets 5
+P1 folds
+Uncalled bet of 5 returned to P2
+P2 wins the pot (356)
+
+Hand #18, P2 (213), P1 (-213)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [6s 9s]
+Dealt to P1 [3c 4d]
+P2 calls
+P1 checks
+*** FLOP *** (4) [2h 4s Ac]
+P1 discards 3c for 5d
+P2 discards 9s for Qd
+P1 bets 127
+P2 calls
+*** TURN *** (258) [2h 4s Ac] [Jh]
+P1 discards 5d for 8c
+P2 discards Qd for Kh
+P1 checks
+P2 bets 7
+P1 folds
+Uncalled bet of 7 returned to P2
+P2 wins the pot (258)
+
+Hand #19, P1 (-342), P2 (342)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [4s Ks]
+Dealt to P2 [7c Ts]
+P1 raises to 67
+P2 calls
+*** FLOP *** (134) [4d 9s Ah]
+P2 discards 7c for 8d
+P1 discards Ks for 3s
+P2 checks
+P1 bets 99
+P2 calls
+*** TURN *** (332) [4d 9s Ah] [Jh]
+P2 checks
+P1 discards 3s for 9h
+P2 bets 20
+P1 calls
+*** RIVER *** (372) [4d 9s Ah Jh] [Js]
+P2 bets 6
+P1 calls
+P1 shows [4s 9h]
+P2 shows [Ts 8d]
+P1 wins the pot (384)
+
+Hand #20, P2 (150), P1 (-150)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Qd 7d]
+Dealt to P1 [Kh 7h]
+P2 raises to 66
+P1 calls
+*** FLOP *** (132) [3c Td 5h]
+P1 discards Kh for Ad
+P2 checks
+P1 checks
+P2 checks
+*** TURN *** (132) [3c Td 5h] [5s]
+P1 discards 7h for Ks
+P2 discards Qd for Ac
+P1 checks
+P2 checks
+*** RIVER *** (132) [3c Td 5h 5s] [2s]
+P1 checks
+P2 checks
+P2 shows [7d Ac]
+P1 shows [Ad Ks]
+P1 wins the pot (132)
+
+Hand #21, P1 (-84), P2 (84)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [6s 3h]
+Dealt to P2 [6h 7c]
+P1 calls
+P2 raises to 8
+P1 raises to 36
+P2 raises to 197
+P1 folds
+Uncalled bet of 161 returned to P2
+P2 wins the pot (72)
+
+Hand #22, P2 (120), P1 (-120)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [9c 2h]
+Dealt to P1 [2d Qc]
+P2 calls
+P1 checks
+*** FLOP *** (4) [2s Js 4s]
+P1 discards Qc for 9h
+P2 discards 2h for 3s
+P1 bets 37
+P2 folds
+Uncalled bet of 37 returned to P1
+P1 wins the pot (4)
+
+Hand #23, P1 (-118), P2 (118)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [8c 9d]
+Dealt to P2 [Kh Ac]
+P1 calls
+P2 checks
+*** FLOP *** (4) [Js 5s Jd]
+P2 discards Ac for Kc
+P1 discards 8c for Ah
+P2 bets 194
+P1 folds
+Uncalled bet of 194 returned to P2
+P2 wins the pot (4)
+
+Hand #24, P2 (120), P1 (-120)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [7c Ad]
+Dealt to P1 [9s Jc]
+P2 folds
+P1 wins the pot (3)
+
+Hand #25, P1 (-119), P2 (119)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Ks 6c]
+Dealt to P2 [9d 3h]
+P1 raises to 56
+P2 calls
+*** FLOP *** (112) [Ac 6d Kc]
+P2 discards 9d for Ad
+P1 checks
+P2 bets 37
+P1 raises to 144
+P2 calls
+*** TURN *** (400) [Ac 6d Kc] [7c]
+P2 discards Ad for 4h
+P1 checks
+*** RIVER *** (400) [Ac 6d Kc 7c] [9s]
+P1 shows [Ks 6c]
+P2 shows [3h 4h]
+P1 wins the pot (400)
+
+Hand #26, P2 (-81), P1 (81)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Ah 7c]
+Dealt to P1 [Qh 2d]
+P2 raises to 77
+P1 folds
+Uncalled bet of 75 returned to P2
+P2 wins the pot (4)
+
+Hand #27, P1 (79), P2 (-79)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [4h 6h]
+Dealt to P2 [Td 5s]
+P1 raises to 34
+P2 folds
+Uncalled bet of 32 returned to P1
+P1 wins the pot (4)
+
+Hand #28, P2 (-81), P1 (81)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Js Kc]
+Dealt to P1 [Jd Qd]
+P2 calls
+P1 raises to 52
+P2 raises to 107
+P1 calls
+*** FLOP *** (214) [5h 8d 7h]
+P1 discards Jd for 4d
+P2 checks
+P1 checks
+P2 checks
+*** TURN *** (214) [5h 8d 7h] [2d]
+P1 discards 4d for 7d
+P2 discards Js for As
+P1 bets 83
+P2 raises to 93
+P1 folds
+Uncalled bet of 10 returned to P2
+P2 wins the pot (380)
+
+Hand #29, P1 (-109), P2 (109)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Td 3d]
+Dealt to P2 [5h 8h]
+P1 raises to 34
+P2 folds
+Uncalled bet of 32 returned to P1
+P1 wins the pot (4)
+
+Hand #30, P2 (107), P1 (-107)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Jh 3d]
+Dealt to P1 [2d Qs]
+P2 folds
+P1 wins the pot (3)
+
+Hand #31, P1 (-106), P2 (106)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [3c 5c]
+Dealt to P2 [6s 2d]
+P1 calls
+P2 raises to 32
+P1 calls
+*** FLOP *** (64) [8s Js 9c]
+P2 discards 6s for 7c
+P1 discards 3c for Jh
+P2 checks
+P1 bets 104
+P2 raises to 168
+P1 folds
+Uncalled bet of 64 returned to P2
+P2 wins the pot (272)
+
+Hand #32, P2 (242), P1 (-242)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [9d Ah]
+Dealt to P1 [Jc Kc]
+P2 calls
+P1 raises to 52
+P2 raises to 166
+P1 folds
+Uncalled bet of 114 returned to P2
+P2 wins the pot (104)
+
+Hand #33, P1 (-294), P2 (294)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [6s 3c]
+Dealt to P2 [Kd Th]
+P1 calls
+P2 checks
+*** FLOP *** (4) [Kh Qs Tc]
+P2 discards Th for Ts
+P1 discards 3c for 4c
+P2 bets 191
+P1 folds
+Uncalled bet of 191 returned to P2
+P2 wins the pot (4)
+
+Hand #34, P2 (296), P1 (-296)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Kd 7h]
+Dealt to P1 [Qc 4h]
+P2 raises to 82
+P1 folds
+Uncalled bet of 80 returned to P2
+P2 wins the pot (4)
+
+Hand #35, P1 (-298), P2 (298)
 P1 posts the blind of 1
 P2 posts the blind of 2
 Dealt to P1 [Ts 2h]
-Dealt to P2 [Qs Ah]
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
+Dealt to P2 [Qs 2d]
+P1 raises to 49
+P2 raises to 115
+P1 folds
+Uncalled bet of 66 returned to P2
+P2 wins the pot (98)
 
-Hand #4, P2 (197), P1 (-197)
+Hand #36, P2 (347), P1 (-347)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [7h 9s]
-Dealt to P1 [Td Tc]
+Dealt to P2 [5s 8s]
+Dealt to P1 [Kc Qh]
+P2 calls
+P1 raises to 145
+P2 calls
+*** FLOP *** (290) [Ah Td 5d]
+P1 checks
+P2 discards 5s for Ks
+P1 checks
+P2 checks
+*** TURN *** (290) [Ah Td 5d] [5c]
+P1 discards Qh for Jc
+P2 discards 8s for 8d
+P1 checks
+P2 bets 27
+P1 folds
+Uncalled bet of 27 returned to P2
+P2 wins the pot (290)
+
+Hand #37, P1 (-492), P2 (492)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [7s 9s]
+Dealt to P2 [Ks 3h]
+P1 raises to 85
+P2 calls
+*** FLOP *** (170) [9h 9c Qd]
+P2 checks
+P1 checks
+P2 checks
+P1 bets 100
+P2 calls
+*** TURN *** (370) [9h 9c Qd] [As]
+P2 checks
+P1 discards 7s for 5s
+P2 bets 7
+P1 folds
+Uncalled bet of 7 returned to P2
+P2 wins the pot (370)
+
+Hand #38, P2 (677), P1 (-677)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [9h Qc]
+Dealt to P1 [Js Qh]
 P2 folds
 P1 wins the pot (3)
 
-Hand #5, P1 (-196), P2 (196)
+Hand #39, P1 (-676), P2 (676)
 P1 posts the blind of 1
 P2 posts the blind of 2
-Dealt to P1 [Qd Ac]
-Dealt to P2 [7c 6d]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [Jh 3c 5h]
-P2 discards 7c for Kh
-P1 checks
-*** TURN *** (400) [Jh 3c 5h] [5d]
-P2 checks
-P1 checks
-*** RIVER *** (400) [Jh 3c 5h 5d] [6h]
-P1 shows [Qd Ac]
-P2 shows [6d Kh]
-P2 wins the pot (400)
-
-Hand #6, P2 (396), P1 (-396)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [7s Qd]
-Dealt to P1 [4h 7d]
-P2 calls
-P1 checks
-*** FLOP *** (4) [8c 6c 8h]
-P1 checks
-P2 discards 7s for 2d
-P1 checks
-P2 checks
-*** TURN *** (4) [8c 6c 8h] [Jc]
-P1 checks
-P2 discards 2d for Ks
-P1 checks
-P2 checks
-*** RIVER *** (4) [8c 6c 8h Jc] [Qs]
-P1 checks
-P2 checks
-P2 shows [Qd Ks]
-P1 shows [4h 7d]
-P2 wins the pot (4)
-
-Hand #7, P1 (-398), P2 (398)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [7c 5s]
-Dealt to P2 [Jd Qc]
+Dealt to P1 [3s Qh]
+Dealt to P2 [4d 5d]
+P1 raises to 44
+P2 raises to 196
 P1 folds
-P2 wins the pot (3)
+Uncalled bet of 152 returned to P2
+P2 wins the pot (88)
 
-Hand #8, P2 (399), P1 (-399)
+Hand #40, P2 (720), P1 (-720)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [Td 2h]
-Dealt to P1 [Jh 4s]
-P2 folds
-P1 wins the pot (3)
-
-Hand #9, P1 (-398), P2 (398)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [4s 5h]
-Dealt to P2 [Js Tc]
-P1 folds
-P2 wins the pot (3)
-
-Hand #10, P2 (399), P1 (-399)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [5c Td]
-Dealt to P1 [Ts Tc]
-P2 raises to 35
-P1 raises to 200
+Dealt to P2 [2c Kc]
+Dealt to P1 [7d 7h]
 P2 calls
-*** FLOP *** (400) [3c 3h 5s]
-P1 checks
-P2 checks
-*** TURN *** (400) [3c 3h 5s] [4h]
-P1 checks
-P2 discards 5c for 7d
-*** RIVER *** (400) [3c 3h 5s 4h] [Ad]
-P2 shows [Td 7d]
-P1 shows [Ts Tc]
-P1 wins the pot (400)
-
-Hand #11, P1 (-199), P2 (199)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [4h 5h]
-Dealt to P2 [3s 3c]
-P1 folds
-P2 wins the pot (3)
-
-Hand #12, P2 (200), P1 (-200)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [5c 6s]
-Dealt to P1 [2h 5d]
+P1 raises to 164
 P2 folds
-P1 wins the pot (3)
-
-Hand #13, P1 (-199), P2 (199)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [As Td]
-Dealt to P2 [Th Jd]
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
+Uncalled bet of 162 returned to P1
 P1 wins the pot (4)
 
-Hand #14, P2 (197), P1 (-197)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Qs 5s]
-Dealt to P1 [7c 9s]
+Hand #41, P1 (-718), P2 (718)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Js Qc]
+Dealt to P2 [3c 7h]
+P1 raises to 140
 P2 calls
-P1 checks
-*** FLOP *** (4) [Ac Kh 2d]
-P1 checks
-P2 discards Qs for 8s
-P1 checks
-P2 checks
-*** TURN *** (4) [Ac Kh 2d] [7s]
-P1 checks
-P2 discards 8s for 6s
-P1 checks
-P2 bets 149
+*** FLOP *** (280) [6h 8c As]
+P2 discards 7h for Kh
+P1 discards Js for Qs
+P2 bets 45
 P1 folds
-Uncalled bet of 149 returned to P2
-P2 wins the pot (4)
+Uncalled bet of 45 returned to P2
+P2 wins the pot (280)
 
-Hand #15, P1 (-199), P2 (199)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [9h Td]
-Dealt to P2 [5s 3h]
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #16, P2 (197), P1 (-197)
+Hand #42, P2 (858), P1 (-858)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [4s 8d]
-Dealt to P1 [8s Ac]
-P2 raises to 146
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [2h 8c Jc]
-P1 checks
-P2 discards 4s for 5d
-*** TURN *** (400) [2h 8c Jc] [3c]
-P1 checks
-P2 discards 8d for Kh
-*** RIVER *** (400) [2h 8c Jc 3c] [Ad]
-P2 shows [5d Kh]
-P1 shows [8s Ac]
-P1 wins the pot (400)
-
-Hand #17, P1 (3), P2 (-3)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [3h 4d]
-Dealt to P2 [Ks Jh]
-P1 folds
-P2 wins the pot (3)
-
-Hand #18, P2 (-2), P1 (2)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [2h Jh]
-Dealt to P1 [Ad 7c]
-P2 folds
-P1 wins the pot (3)
-
-Hand #19, P1 (3), P2 (-3)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [2h Jd]
-Dealt to P2 [7d Tc]
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #20, P2 (-5), P1 (5)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [6c 4h]
-Dealt to P1 [Qc Kd]
-P2 calls
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #21, P1 (7), P2 (-7)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [9h 4h]
-Dealt to P2 [Ts 8c]
-P1 folds
-P2 wins the pot (3)
-
-Hand #22, P2 (-6), P1 (6)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Td Jc]
-Dealt to P1 [Js Ad]
-P2 raises to 106
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [7h 9h Tc]
-P1 checks
-P2 discards Jc for Kc
-*** TURN *** (400) [7h 9h Tc] [3d]
-P1 checks
-P2 discards Kc for 4d
-*** RIVER *** (400) [7h 9h Tc 3d] [7s]
-P2 shows [Td 4d]
-P1 shows [Js Ad]
-P2 wins the pot (400)
-
-Hand #23, P1 (-194), P2 (194)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [As Kd]
-Dealt to P2 [4s 2s]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [2h Qh Ks]
-P2 discards 2s for 3h
-P1 checks
-*** TURN *** (400) [2h Qh Ks] [8s]
-P2 checks
-P1 checks
-*** RIVER *** (400) [2h Qh Ks 8s] [Kc]
-P1 shows [As Kd]
-P2 shows [4s 3h]
-P1 wins the pot (400)
-
-Hand #24, P2 (-6), P1 (6)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [2s 6d]
-Dealt to P1 [9h 9d]
-P2 calls
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [6h Qc 9c]
-P1 checks
-P2 discards 2s for 5d
-*** TURN *** (400) [6h Qc 9c] [8h]
-P1 checks
-P2 discards 5d for 5s
-*** RIVER *** (400) [6h Qc 9c 8h] [3h]
-P2 shows [6d 5s]
-P1 shows [9h 9d]
-P1 wins the pot (400)
-
-Hand #25, P1 (206), P2 (-206)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [7s 3h]
-Dealt to P2 [9c Ts]
-P1 folds
-P2 wins the pot (3)
-
-Hand #26, P2 (-205), P1 (205)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Ks 2h]
-Dealt to P1 [9s Js]
-P2 raises to 4
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [4d 8s 6h]
-P1 checks
-P2 discards Ks for Kd
-*** TURN *** (400) [4d 8s 6h] [2c]
-P1 checks
-P2 checks
-*** RIVER *** (400) [4d 8s 6h 2c] [2s]
-P2 shows [2h Kd]
-P1 shows [9s Js]
-P2 wins the pot (400)
-
-Hand #27, P1 (5), P2 (-5)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [8s 4d]
-Dealt to P2 [Tc 3c]
-P1 folds
-P2 wins the pot (3)
-
-Hand #28, P2 (-4), P1 (4)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [8d Kc]
-Dealt to P1 [Th Jd]
-P2 folds
-P1 wins the pot (3)
-
-Hand #29, P1 (5), P2 (-5)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [Ks Kd]
-Dealt to P2 [6s 4h]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [7s 5h 2d]
-P2 discards 6s for Kh
-P1 checks
-*** TURN *** (400) [7s 5h 2d] [9c]
-P2 discards Kh for 5s
-P1 checks
-*** RIVER *** (400) [7s 5h 2d 9c] [7h]
-P1 shows [Ks Kd]
-P2 shows [4h 5s]
-P1 wins the pot (400)
-
-Hand #30, P2 (-205), P1 (205)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Tc Ad]
-Dealt to P1 [5c Ac]
-P2 raises to 32
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [2c Qd 6s]
-P1 checks
-P2 discards Tc for Kh
-*** TURN *** (400) [2c Qd 6s] [7s]
-P1 checks
-P2 checks
-*** RIVER *** (400) [2c Qd 6s 7s] [Jd]
-P2 shows [Ad Kh]
-P1 shows [5c Ac]
-P2 wins the pot (400)
-
-Hand #31, P1 (5), P2 (-5)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [8d 6c]
-Dealt to P2 [Td 8h]
-P1 folds
-P2 wins the pot (3)
-
-Hand #32, P2 (-4), P1 (4)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [5s Ts]
-Dealt to P1 [8c Ad]
-P2 folds
-P1 wins the pot (3)
-
-Hand #33, P1 (5), P2 (-5)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [Ac 4c]
-Dealt to P2 [2s 3s]
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #34, P2 (-7), P1 (7)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Qh Kh]
-Dealt to P1 [9d 4h]
-P2 calls
-P1 checks
-*** FLOP *** (4) [5s Kd Qc]
-P1 checks
-P2 discards Kh for Kc
-P1 checks
-P2 checks
-*** TURN *** (4) [5s Kd Qc] [Ah]
-P1 checks
-P2 discards Kc for 9c
-P1 checks
-P2 checks
-*** RIVER *** (4) [5s Kd Qc Ah] [Tc]
-P1 checks
-P2 checks
-P2 shows [Qh 9c]
-P1 shows [9d 4h]
-P2 wins the pot (4)
-
-Hand #35, P1 (5), P2 (-5)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [6d 7d]
-Dealt to P2 [5h 2s]
-P1 folds
-P2 wins the pot (3)
-
-Hand #36, P2 (-4), P1 (4)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [2d Kd]
-Dealt to P1 [Ad Ah]
-P2 raises to 112
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [8d Qs Td]
-P1 checks
-P2 discards 2d for 8h
-*** TURN *** (400) [8d Qs Td] [5c]
-P1 checks
-P2 checks
-*** RIVER *** (400) [8d Qs Td 5c] [7h]
-P2 shows [Kd 8h]
-P1 shows [Ad Ah]
-P1 wins the pot (400)
-
-Hand #37, P1 (204), P2 (-204)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [7d Ts]
-Dealt to P2 [5h 8c]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [3s 2s 4s]
-P2 checks
-P1 checks
-*** TURN *** (400) [3s 2s 4s] [3d]
-P2 discards 5h for 6c
-P1 checks
-*** RIVER *** (400) [3s 2s 4s 3d] [Qd]
-P1 shows [7d Ts]
-P2 shows [8c 6c]
-P1 wins the pot (400)
-
-Hand #38, P2 (-404), P1 (404)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [3d Tc]
-Dealt to P1 [6h 7c]
-P2 raises to 184
-P1 folds
-Uncalled bet of 182 returned to P2
-P2 wins the pot (4)
-
-Hand #39, P1 (402), P2 (-402)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [2h Ks]
-Dealt to P2 [7c 2c]
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #40, P2 (-404), P1 (404)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [5d 9c]
-Dealt to P1 [Jd 6c]
-P2 calls
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #41, P1 (406), P2 (-406)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [Jd 3h]
-Dealt to P2 [Jh 7c]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [4s 9d Ks]
-P2 discards Jh for Js
-P1 checks
-*** TURN *** (400) [4s 9d Ks] [5h]
-P2 discards Js for 5c
-P1 checks
-*** RIVER *** (400) [4s 9d Ks 5h] [3d]
-P1 shows [Jd 3h]
-P2 shows [7c 5c]
-P2 wins the pot (400)
-
-Hand #42, P2 (-206), P1 (206)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [8c 2h]
-Dealt to P1 [Qd 4s]
-P2 calls
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [3h 3d Ts]
-P1 checks
-P2 discards 8c for Td
-*** TURN *** (400) [3h 3d Ts] [6h]
-P1 checks
-P2 discards Td for 9h
-*** RIVER *** (400) [3h 3d Ts 6h] [Qh]
-P2 shows [2h 9h]
-P1 shows [Qd 4s]
-P2 wins the pot (400)
-
-Hand #43, P1 (6), P2 (-6)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [4d Tc]
-Dealt to P2 [Qc 4s]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [Th Qs 9d]
-P2 checks
-P1 checks
-*** TURN *** (400) [Th Qs 9d] [Kh]
-P2 discards Qc for Td
-P1 checks
-*** RIVER *** (400) [Th Qs 9d Kh] [6d]
-P1 shows [4d Tc]
-P2 shows [4s Td]
-P1 ties for the pot (200)
-P2 ties for the pot (200)
-
-Hand #44, P2 (-6), P1 (6)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [4d 2h]
-Dealt to P1 [Jh 2c]
-P2 folds
-P1 wins the pot (3)
-
-Hand #45, P1 (7), P2 (-7)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [4h Qc]
-Dealt to P2 [Ts Qd]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [Tc Ks 8s]
-P2 checks
-P1 checks
-*** TURN *** (400) [Tc Ks 8s] [2c]
-P2 discards Ts for 7c
-P1 checks
-*** RIVER *** (400) [Tc Ks 8s 2c] [9h]
-P1 shows [4h Qc]
-P2 shows [Qd 7c]
-P1 ties for the pot (200)
-P2 ties for the pot (200)
-
-Hand #46, P2 (-7), P1 (7)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Jh Jc]
-Dealt to P1 [6d Ks]
-P2 calls
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #47, P1 (9), P2 (-9)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [Jc 2s]
-Dealt to P2 [2h Ks]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [Qd Qh 3c]
-P2 checks
-P1 checks
-*** TURN *** (400) [Qd Qh 3c] [6d]
-P2 discards 2h for Jh
-P1 checks
-*** RIVER *** (400) [Qd Qh 3c 6d] [Ah]
-P1 shows [Jc 2s]
-P2 shows [Ks Jh]
-P2 wins the pot (400)
-
-Hand #48, P2 (191), P1 (-191)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [3s 7s]
-Dealt to P1 [6h 3d]
-P2 raises to 159
-P1 folds
-Uncalled bet of 157 returned to P2
-P2 wins the pot (4)
-
-Hand #49, P1 (-193), P2 (193)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [7h 6d]
-Dealt to P2 [2h Th]
-P1 folds
-P2 wins the pot (3)
-
-Hand #50, P2 (194), P1 (-194)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [9d Kh]
-Dealt to P1 [8s Kc]
-P2 folds
-P1 wins the pot (3)
-
-Hand #51, P1 (-193), P2 (193)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [9c 6d]
-Dealt to P2 [8h 7c]
-P1 folds
-P2 wins the pot (3)
-
-Hand #52, P2 (194), P1 (-194)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [6h Ad]
-Dealt to P1 [Qs 9d]
-P2 calls
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [Th Jd 2d]
-P1 checks
-P2 discards 6h for 7d
-*** TURN *** (400) [Th Jd 2d] [As]
-P1 checks
-P2 checks
-*** RIVER *** (400) [Th Jd 2d As] [2s]
-P2 shows [Ad 7d]
-P1 shows [Qs 9d]
-P2 wins the pot (400)
-
-Hand #53, P1 (-394), P2 (394)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [8c 3d]
-Dealt to P2 [Jd 2s]
-P1 folds
-P2 wins the pot (3)
-
-Hand #54, P2 (395), P1 (-395)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Jd 7d]
-Dealt to P1 [4s As]
-P2 folds
-P1 wins the pot (3)
-
-Hand #55, P1 (-394), P2 (394)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [4d 8d]
-Dealt to P2 [Jd 7h]
-P1 folds
-P2 wins the pot (3)
-
-Hand #56, P2 (395), P1 (-395)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Ts 5c]
-Dealt to P1 [4s Qc]
-P2 calls
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #57, P1 (-393), P2 (393)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [Jh 9s]
-Dealt to P2 [8c Kc]
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #58, P2 (391), P1 (-391)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Kd 2d]
-Dealt to P1 [8s 2c]
-P2 raises to 41
-P1 folds
-Uncalled bet of 39 returned to P2
-P2 wins the pot (4)
-
-Hand #59, P1 (-393), P2 (393)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [Jh 2h]
-Dealt to P2 [2s 6d]
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #60, P2 (391), P1 (-391)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [4s Qs]
-Dealt to P1 [Jh 6s]
-P2 raises to 18
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [2h 3d 8d]
-P1 checks
-P2 checks
-*** TURN *** (400) [2h 3d 8d] [Kd]
-P1 checks
-P2 discards 4s for Ks
-*** RIVER *** (400) [2h 3d 8d Kd] [3h]
-P2 shows [Qs Ks]
-P1 shows [Jh 6s]
-P2 wins the pot (400)
-
-Hand #61, P1 (-591), P2 (591)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [2c Tc]
-Dealt to P2 [8h 8s]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [Qc Qd Jc]
-P2 discards 8s for 5h
-P1 checks
-*** TURN *** (400) [Qc Qd Jc] [9d]
-P2 discards 8h for 7h
-P1 checks
-*** RIVER *** (400) [Qc Qd Jc 9d] [Td]
-P1 shows [2c Tc]
-P2 shows [5h 7h]
-P1 wins the pot (400)
-
-Hand #62, P2 (391), P1 (-391)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [2c 4d]
-Dealt to P1 [Ks 5h]
-P2 calls
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [Kh Kc 6c]
-P1 checks
-P2 discards 2c for 5s
-*** TURN *** (400) [Kh Kc 6c] [9s]
-P1 checks
-P2 checks
-*** RIVER *** (400) [Kh Kc 6c 9s] [5c]
-P2 shows [4d 5s]
-P1 shows [Ks 5h]
-P1 wins the pot (400)
-
-Hand #63, P1 (-191), P2 (191)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [5h 9d]
-Dealt to P2 [Qh 9h]
-P1 folds
-P2 wins the pot (3)
-
-Hand #64, P2 (192), P1 (-192)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [9h Kc]
-Dealt to P1 [Td 5h]
-P2 folds
-P1 wins the pot (3)
-
-Hand #65, P1 (-191), P2 (191)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [Jc Qd]
 Dealt to P2 [Ks 6s]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [7s 6c 7h]
-P2 discards Ks for 9h
-P1 checks
-*** TURN *** (400) [7s 6c 7h] [5s]
-P2 checks
-P1 checks
-*** RIVER *** (400) [7s 6c 7h 5s] [8s]
-P1 shows [Jc Qd]
-P2 shows [6s 9h]
-P2 wins the pot (400)
-
-Hand #66, P2 (391), P1 (-391)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [7h 3s]
-Dealt to P1 [Qh Ad]
-P2 raises to 129
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [5d 8h 9s]
-P1 checks
-P2 discards 3s for Kd
-*** TURN *** (400) [5d 8h 9s] [6h]
-P1 checks
-P2 discards 7h for As
-*** RIVER *** (400) [5d 8h 9s 6h] [6d]
-P2 shows [Kd As]
-P1 shows [Qh Ad]
-P2 wins the pot (400)
-
-Hand #67, P1 (-591), P2 (591)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [8c Ad]
-Dealt to P2 [4c 4h]
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #68, P2 (589), P1 (-589)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [As Kc]
-Dealt to P1 [3s 2s]
-P2 raises to 79
+Dealt to P1 [4h Jh]
+P2 raises to 153
 P1 folds
-Uncalled bet of 77 returned to P2
+Uncalled bet of 151 returned to P2
 P2 wins the pot (4)
 
-Hand #69, P1 (-591), P2 (591)
+Hand #43, P1 (-860), P2 (860)
 P1 posts the blind of 1
 P2 posts the blind of 2
-Dealt to P1 [2h 3c]
-Dealt to P2 [9d Td]
-P1 folds
-P2 wins the pot (3)
+Dealt to P1 [7h Ah]
+Dealt to P2 [Qh 4s]
+P1 raises to 85
+P2 folds
+Uncalled bet of 83 returned to P1
+P1 wins the pot (4)
 
-Hand #70, P2 (592), P1 (-592)
+Hand #44, P2 (858), P1 (-858)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [3h Td]
-Dealt to P1 [Th 4h]
+Dealt to P2 [2h Ac]
+Dealt to P1 [7d 6d]
+P2 calls
+P1 checks
+*** FLOP *** (4) [7h 2c 3h]
+P1 checks
+P2 checks
+P1 bets 141
+P2 folds
+Uncalled bet of 141 returned to P1
+P1 wins the pot (4)
+
+Hand #45, P1 (-856), P2 (856)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Ah Jh]
+Dealt to P2 [7h Js]
+P1 raises to 163
+P2 calls
+*** FLOP *** (326) [Jc Kh Ks]
+P2 checks
+P1 checks
+P2 checks
+P1 checks
+*** TURN *** (326) [Jc Kh Ks] [9d]
+P2 discards 7h for Qc
+P1 checks
+P2 bets 33
+P1 folds
+Uncalled bet of 33 returned to P2
+P2 wins the pot (326)
+
+Hand #46, P2 (1019), P1 (-1019)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [9c Kd]
+Dealt to P1 [3c Ad]
+P2 calls
+P1 raises to 138
+P2 calls
+*** FLOP *** (276) [9h 5c 3h]
+P1 discards Ad for Ts
+P2 discards 9c for 8d
+P1 checks
+P2 checks
+*** TURN *** (276) [9h 5c 3h] [3s]
+P1 checks
+P2 discards 8d for 6c
+P1 bets 56
+P2 raises to 62
+P1 folds
+Uncalled bet of 6 returned to P2
+P2 wins the pot (388)
+
+Hand #47, P1 (-1213), P2 (1213)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [5h Th]
+Dealt to P2 [5s 6s]
+P1 calls
+P2 checks
+*** FLOP *** (4) [7h Kh Ah]
+P2 discards 6s for Jc
+P1 checks
+P2 checks
+P1 bets 186
+P2 calls
+*** TURN *** (376) [7h Kh Ah] [Qh]
+P2 discards Jc for 9d
+P1 checks
+P2 bets 9
+P1 folds
+Uncalled bet of 9 returned to P2
+P2 wins the pot (376)
+
+Hand #48, P2 (1401), P1 (-1401)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [6c Th]
+Dealt to P1 [9d 3s]
+P2 raises to 86
+P1 folds
+Uncalled bet of 84 returned to P2
+P2 wins the pot (4)
+
+Hand #49, P1 (-1403), P2 (1403)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Ah 4d]
+Dealt to P2 [6s Qs]
+P1 raises to 101
+P2 folds
+Uncalled bet of 99 returned to P1
+P1 wins the pot (4)
+
+Hand #50, P2 (1401), P1 (-1401)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Js Ah]
+Dealt to P1 [8c 4d]
+P2 raises to 116
+P1 folds
+Uncalled bet of 114 returned to P2
+P2 wins the pot (4)
+
+Hand #51, P1 (-1403), P2 (1403)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [5d Ah]
+Dealt to P2 [9d 2c]
+P1 raises to 80
+P2 calls
+*** FLOP *** (160) [8c Qh 2d]
+P2 discards 2c for 9h
+P1 discards 5d for 2s
+P2 checks
+P1 checks
+*** TURN *** (160) [8c Qh 2d] [6c]
+P2 discards 9d for Qc
+P1 discards Ah for 6d
+P2 bets 34
+P1 raises to 120
+P2 folds
+Uncalled bet of 86 returned to P1
+P1 wins the pot (228)
+
+Hand #52, P2 (1289), P1 (-1289)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Qs 6d]
+Dealt to P1 [3h 4c]
+P2 raises to 197
+P1 folds
+Uncalled bet of 195 returned to P2
+P2 wins the pot (4)
+
+Hand #53, P1 (-1291), P2 (1291)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [3h 9h]
+Dealt to P2 [5h 7d]
+P1 calls
+P2 checks
+*** FLOP *** (4) [As Qd 8d]
+P2 discards 5h for 9c
+P1 discards 3h for Kh
+P2 checks
+P1 bets 64
+P2 folds
+Uncalled bet of 64 returned to P1
+P1 wins the pot (4)
+
+Hand #54, P2 (1289), P1 (-1289)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [2s Qc]
+Dealt to P1 [Th Qh]
 P2 folds
 P1 wins the pot (3)
 
-Hand #71, P1 (-591), P2 (591)
+Hand #55, P1 (-1288), P2 (1288)
 P1 posts the blind of 1
 P2 posts the blind of 2
-Dealt to P1 [As Ad]
-Dealt to P2 [5c 7d]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [3d Ah Th]
-P2 discards 5c for 8d
-P1 checks
-*** TURN *** (400) [3d Ah Th] [Qh]
-P2 checks
-P1 checks
-*** RIVER *** (400) [3d Ah Th Qh] [2s]
-P1 shows [As Ad]
-P2 shows [7d 8d]
-P1 wins the pot (400)
+Dealt to P1 [Ah 2h]
+Dealt to P2 [Qs 7c]
+P1 raises to 65
+P2 folds
+Uncalled bet of 63 returned to P1
+P1 wins the pot (4)
 
-Hand #72, P2 (391), P1 (-391)
+Hand #56, P2 (1286), P1 (-1286)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [3c 2c]
-Dealt to P1 [8h As]
+Dealt to P2 [8s Ks]
+Dealt to P1 [Kc 7c]
+P2 calls
+P1 raises to 90
+P2 calls
+*** FLOP *** (180) [6s 3c 5c]
+P1 checks
+P2 discards Ks for 9c
+P1 checks
+P2 checks
+*** TURN *** (180) [6s 3c 5c] [9h]
+P1 checks
+P2 discards 8s for 3h
+P1 checks
+P2 checks
+*** RIVER *** (180) [6s 3c 5c 9h] [7s]
+P1 checks
+P2 checks
+P2 shows [9c 3h]
+P1 shows [Kc 7c]
+P2 wins the pot (180)
+
+Hand #57, P1 (-1376), P2 (1376)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [4s Th]
+Dealt to P2 [3c 6h]
+P1 calls
+P2 raises to 100
+P1 folds
+Uncalled bet of 98 returned to P2
+P2 wins the pot (4)
+
+Hand #58, P2 (1378), P1 (-1378)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [8c 9h]
+Dealt to P1 [9c 2d]
+P2 raises to 97
+P1 folds
+Uncalled bet of 95 returned to P2
+P2 wins the pot (4)
+
+Hand #59, P1 (-1380), P2 (1380)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [As Kc]
+Dealt to P2 [Qc 5d]
+P1 raises to 140
+P2 folds
+Uncalled bet of 138 returned to P1
+P1 wins the pot (4)
+
+Hand #60, P2 (1378), P1 (-1378)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [7s Kc]
+Dealt to P1 [2s Ac]
 P2 folds
 P1 wins the pot (3)
 
-Hand #73, P1 (-390), P2 (390)
+Hand #61, P1 (-1377), P2 (1377)
 P1 posts the blind of 1
 P2 posts the blind of 2
-Dealt to P1 [8h 8s]
-Dealt to P2 [Qs As]
-P1 raises to 200
+Dealt to P1 [4c 2s]
+Dealt to P2 [Qs 3s]
+P1 raises to 40
 P2 calls
-*** FLOP *** (400) [9c 6s 8d]
+*** FLOP *** (80) [Ks Kc Jd]
+P2 checks
+P1 discards 4c for 4d
 P2 checks
 P1 checks
-*** TURN *** (400) [9c 6s 8d] [Jd]
-P2 discards Qs for 3h
-P1 checks
-*** RIVER *** (400) [9c 6s 8d Jd] [Ah]
-P1 shows [8h 8s]
-P2 shows [As 3h]
-P1 wins the pot (400)
-
-Hand #74, P2 (190), P1 (-190)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [5d 3h]
-Dealt to P1 [7c Ts]
-P2 raises to 163
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [Td 2h 7s]
-P1 checks
-P2 discards 3h for 5c
-*** TURN *** (400) [Td 2h 7s] [As]
-P1 checks
-P2 discards 5d for Ah
-*** RIVER *** (400) [Td 2h 7s As] [4h]
-P2 shows [5c Ah]
-P1 shows [7c Ts]
-P1 wins the pot (400)
-
-Hand #75, P1 (10), P2 (-10)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [8d 5s]
-Dealt to P2 [Ac Jd]
-P1 folds
-P2 wins the pot (3)
-
-Hand #76, P2 (-9), P1 (9)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [6d 3s]
-Dealt to P1 [Ks Jd]
-P2 raises to 75
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [Qh 9c 4c]
-P1 checks
+*** TURN *** (80) [Ks Kc Jd] [Ac]
+P2 discards 3s for Ad
+P1 discards 4d for 7d
 P2 checks
-*** TURN *** (400) [Qh 9c 4c] [Td]
 P1 checks
-P2 discards 3s for Kc
-*** RIVER *** (400) [Qh 9c 4c Td] [6s]
-P2 shows [6d Kc]
-P1 shows [Ks Jd]
-P1 wins the pot (400)
+*** RIVER *** (80) [Ks Kc Jd Ac] [4h]
+P2 checks
+P1 checks
+P1 shows [2s 7d]
+P2 shows [Qs Ad]
+P2 wins the pot (80)
 
-Hand #77, P1 (209), P2 (-209)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [Ac 6h]
-Dealt to P2 [Qd Ad]
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #78, P2 (-211), P1 (211)
+Hand #62, P2 (1417), P1 (-1417)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [3c 5d]
-Dealt to P1 [6d 4d]
+Dealt to P2 [Jd 5c]
+Dealt to P1 [Qh 8s]
 P2 folds
 P1 wins the pot (3)
 
-Hand #79, P1 (212), P2 (-212)
+Hand #63, P1 (-1416), P2 (1416)
 P1 posts the blind of 1
 P2 posts the blind of 2
-Dealt to P1 [Kd Kh]
-Dealt to P2 [6h 4h]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [Ac Ts 7c]
-P2 discards 6h for Jc
-P1 checks
-*** TURN *** (400) [Ac Ts 7c] [2s]
-P2 checks
-P1 checks
-*** RIVER *** (400) [Ac Ts 7c 2s] [6s]
-P1 shows [Kd Kh]
-P2 shows [4h Jc]
-P1 wins the pot (400)
-
-Hand #80, P2 (-412), P1 (412)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Th 8c]
-Dealt to P1 [Ks 5d]
-P2 calls
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [5c 2h 9s]
-P1 checks
-P2 checks
-*** TURN *** (400) [5c 2h 9s] [Jc]
-P1 checks
-P2 discards Th for Qd
-*** RIVER *** (400) [5c 2h 9s Jc] [6s]
-P2 shows [8c Qd]
-P1 shows [Ks 5d]
-P1 wins the pot (400)
-
-Hand #81, P1 (612), P2 (-612)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [4h 5s]
-Dealt to P2 [8c 8h]
+Dealt to P1 [Jh 6h]
+Dealt to P2 [4h 4d]
+P1 raises to 79
+P2 raises to 157
 P1 folds
-P2 wins the pot (3)
+Uncalled bet of 78 returned to P2
+P2 wins the pot (158)
 
-Hand #82, P2 (-611), P1 (611)
+Hand #64, P2 (1495), P1 (-1495)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [Kd Ac]
-Dealt to P1 [2h Kc]
-P2 calls
-P1 raises to 200
+Dealt to P2 [Js 6h]
+Dealt to P1 [5s 5d]
 P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
+P1 wins the pot (3)
 
-Hand #83, P1 (613), P2 (-613)
+Hand #65, P1 (-1494), P2 (1494)
 P1 posts the blind of 1
 P2 posts the blind of 2
-Dealt to P1 [Ah 5c]
-Dealt to P2 [8s Ad]
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
+Dealt to P1 [Qs 7d]
+Dealt to P2 [Ks Ts]
+P1 calls
+P2 checks
+*** FLOP *** (4) [Ad 8h Ah]
+P2 discards Ts for 6h
+P1 discards 7d for 7c
+P2 checks
+P1 bets 30
+P2 calls
+*** TURN *** (64) [Ad 8h Ah] [8d]
+P2 discards Ks for 5h
+P1 discards 7c for 2c
+P2 checks
+P1 checks
+*** RIVER *** (64) [Ad 8h Ah 8d] [5s]
+P2 checks
+P1 bets 62
+P2 calls
+P1 shows [Qs 2c]
+P2 shows [6h 5h]
+P1 wins the pot (188)
 
-Hand #84, P2 (-615), P1 (615)
+Hand #66, P2 (1400), P1 (-1400)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [9s Jd]
-Dealt to P1 [2c 8d]
-P2 calls
-P1 checks
-*** FLOP *** (4) [Qh 3d Jc]
-P1 checks
-P2 checks
-P1 checks
-P2 checks
-*** TURN *** (4) [Qh 3d Jc] [6s]
-P1 checks
-P2 discards 9s for Tc
-P1 checks
-P2 bets 135
+Dealt to P2 [Js Jd]
+Dealt to P1 [7h Qd]
+P2 raises to 137
 P1 folds
 Uncalled bet of 135 returned to P2
 P2 wins the pot (4)
 
-Hand #85, P1 (613), P2 (-613)
+Hand #67, P1 (-1402), P2 (1402)
 P1 posts the blind of 1
 P2 posts the blind of 2
-Dealt to P1 [3d 2s]
-Dealt to P2 [Td Qh]
-P1 folds
-P2 wins the pot (3)
-
-Hand #86, P2 (-612), P1 (612)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [7d Th]
-Dealt to P1 [Kc 9d]
+Dealt to P1 [2d Ad]
+Dealt to P2 [7c Th]
+P1 raises to 63
 P2 calls
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #87, P1 (614), P2 (-614)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [6h 9h]
-Dealt to P2 [4s Th]
-P1 folds
-P2 wins the pot (3)
-
-Hand #88, P2 (-613), P1 (613)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Th 4d]
-Dealt to P1 [Js 5d]
-P2 calls
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [Ts Qs 2c]
-P1 checks
-P2 discards Th for Ah
-*** TURN *** (400) [Ts Qs 2c] [Qd]
+*** FLOP *** (126) [Kc Js Ah]
+P2 discards 7c for Td
 P1 checks
 P2 checks
-*** RIVER *** (400) [Ts Qs 2c Qd] [2s]
-P2 shows [4d Ah]
-P1 shows [Js 5d]
-P2 wins the pot (400)
-
-Hand #89, P1 (413), P2 (-413)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [3d 2h]
-Dealt to P2 [6s Ac]
+P1 bets 54
+P2 raises to 131
 P1 folds
-P2 wins the pot (3)
+Uncalled bet of 77 returned to P2
+P2 wins the pot (234)
 
-Hand #90, P2 (-412), P1 (412)
+Hand #68, P2 (1519), P1 (-1519)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [As 6s]
-Dealt to P1 [5h 2c]
-P2 raises to 187
+Dealt to P2 [8s 5c]
+Dealt to P1 [4h Ks]
+P2 raises to 37
 P1 folds
-Uncalled bet of 185 returned to P2
+Uncalled bet of 35 returned to P2
 P2 wins the pot (4)
 
-Hand #91, P1 (410), P2 (-410)
+Hand #69, P1 (-1521), P2 (1521)
 P1 posts the blind of 1
 P2 posts the blind of 2
-Dealt to P1 [3c Ah]
-Dealt to P2 [2h Ad]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [9d 5h 9s]
-P2 checks
-P1 checks
-*** TURN *** (400) [9d 5h 9s] [Tc]
-P2 discards 2h for 5d
-P1 checks
-*** RIVER *** (400) [9d 5h 9s Tc] [2s]
-P1 shows [3c Ah]
-P2 shows [Ad 5d]
-P2 wins the pot (400)
+Dealt to P1 [3d 8h]
+Dealt to P2 [Ad 4s]
+P1 raises to 49
+P2 raises to 174
+P1 folds
+Uncalled bet of 125 returned to P2
+P2 wins the pot (98)
 
-Hand #92, P2 (-210), P1 (210)
+Hand #70, P2 (1570), P1 (-1570)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [4s 5d]
-Dealt to P1 [Js 2c]
-P2 raises to 56
-P1 raises to 200
+Dealt to P2 [9s Kd]
+Dealt to P1 [3c Ad]
 P2 calls
-*** FLOP *** (400) [2d Ts Jc]
+P1 raises to 54
+P2 folds
+Uncalled bet of 52 returned to P1
+P1 wins the pot (4)
+
+Hand #71, P1 (-1568), P2 (1568)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [8c Qc]
+Dealt to P2 [5s 3s]
+P1 raises to 110
+P2 raises to 200
+P1 folds
+Uncalled bet of 90 returned to P2
+P2 wins the pot (220)
+
+Hand #72, P2 (1678), P1 (-1678)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [4d Js]
+Dealt to P1 [3s As]
+P2 calls
+P1 raises to 74
+P2 folds
+Uncalled bet of 72 returned to P1
+P1 wins the pot (4)
+
+Hand #73, P1 (-1676), P2 (1676)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [2d 5d]
+Dealt to P2 [6d 8d]
+P1 folds
+P2 wins the pot (3)
+
+Hand #74, P2 (1677), P1 (-1677)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [5c 9d]
+Dealt to P1 [4c 8d]
+P2 calls
+P1 raises to 50
+P2 folds
+Uncalled bet of 48 returned to P1
+P1 wins the pot (4)
+
+Hand #75, P1 (-1675), P2 (1675)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [9s Ts]
+Dealt to P2 [4h 9d]
+P1 raises to 91
+P2 raises to 180
+P1 folds
+Uncalled bet of 89 returned to P2
+P2 wins the pot (182)
+
+Hand #76, P2 (1766), P1 (-1766)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Jd 8h]
+Dealt to P1 [7d Td]
+P2 calls
+P1 raises to 32
+P2 calls
+*** FLOP *** (64) [Qh 2s 2h]
+P1 discards 7d for 9d
+P2 discards Jd for 2c
 P1 checks
-P2 discards 5d for Ah
-*** TURN *** (400) [2d Ts Jc] [8d]
+P2 bets 76
+P1 folds
+Uncalled bet of 76 returned to P2
+P2 wins the pot (64)
+
+Hand #77, P1 (-1798), P2 (1798)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [9c 4s]
+Dealt to P2 [5h 5c]
+P1 calls
+P2 raises to 117
+P1 folds
+Uncalled bet of 115 returned to P2
+P2 wins the pot (4)
+
+Hand #78, P2 (1800), P1 (-1800)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [6h 8c]
+Dealt to P1 [Js Qs]
+P2 folds
+P1 wins the pot (3)
+
+Hand #79, P1 (-1799), P2 (1799)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [7s Td]
+Dealt to P2 [Jd 4c]
+P1 calls
+P2 raises to 102
+P1 folds
+Uncalled bet of 100 returned to P2
+P2 wins the pot (4)
+
+Hand #80, P2 (1801), P1 (-1801)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [3h As]
+Dealt to P1 [4s Td]
+P2 raises to 188
+P1 folds
+Uncalled bet of 186 returned to P2
+P2 wins the pot (4)
+
+Hand #81, P1 (-1803), P2 (1803)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [2h Ts]
+Dealt to P2 [4s 5h]
+P1 raises to 34
+P2 calls
+*** FLOP *** (68) [5d Jd Td]
+P2 discards 5h for 3c
 P1 checks
 P2 checks
-*** RIVER *** (400) [2d Ts Jc 8d] [Ks]
-P2 shows [4s Ah]
-P1 shows [Js 2c]
+P1 bets 112
+P2 folds
+Uncalled bet of 112 returned to P1
+P1 wins the pot (68)
+
+Hand #82, P2 (1769), P1 (-1769)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [8c Ac]
+Dealt to P1 [Qs 6h]
+P2 calls
+P1 raises to 44
+P2 raises to 95
+P1 folds
+Uncalled bet of 51 returned to P2
+P2 wins the pot (88)
+
+Hand #83, P1 (-1813), P2 (1813)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Qc 2d]
+Dealt to P2 [2h Td]
+P1 calls
+P2 checks
+*** FLOP *** (4) [7d Th Qd]
+P2 checks
+P1 checks
+P2 bets 136
+P1 raises to 198
+P2 calls
+*** TURN *** (400) [7d Th Qd] [6c]
+P2 checks
+P1 discards 2d for 8h
+*** RIVER *** (400) [7d Th Qd 6c] [9d]
+P1 shows [Qc 8h]
+P2 shows [2h Td]
 P1 wins the pot (400)
 
-Hand #93, P1 (410), P2 (-410)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [7h Jd]
-Dealt to P2 [Kh 2h]
-P1 raises to 200
-P2 folds
-Uncalled bet of 198 returned to P1
-P1 wins the pot (4)
-
-Hand #94, P2 (-412), P1 (412)
+Hand #84, P2 (1613), P1 (-1613)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [5d 9c]
-Dealt to P1 [3h 4h]
-P2 raises to 70
-P1 folds
-Uncalled bet of 68 returned to P2
-P2 wins the pot (4)
+Dealt to P2 [Jd 3d]
+Dealt to P1 [Js 7d]
+P2 folds
+P1 wins the pot (3)
 
-Hand #95, P1 (410), P2 (-410)
+Hand #85, P1 (-1612), P2 (1612)
 P1 posts the blind of 1
 P2 posts the blind of 2
-Dealt to P1 [8s 7s]
-Dealt to P2 [7h 2c]
+Dealt to P1 [5h Ts]
+Dealt to P2 [2s 8d]
+P1 calls
+P2 raises to 62
+P1 folds
+Uncalled bet of 60 returned to P2
+P2 wins the pot (4)
+
+Hand #86, P2 (1614), P1 (-1614)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Qh Jd]
+Dealt to P1 [Ad 8c]
+P2 raises to 111
+P1 folds
+Uncalled bet of 109 returned to P2
+P2 wins the pot (4)
+
+Hand #87, P1 (-1616), P2 (1616)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Js 7h]
+Dealt to P2 [5c 8s]
+P1 raises to 52
+P2 raises to 199
+P1 folds
+Uncalled bet of 147 returned to P2
+P2 wins the pot (104)
+
+Hand #88, P2 (1668), P1 (-1668)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Kc 6c]
+Dealt to P1 [Kd 8s]
+P2 raises to 63
+P1 folds
+Uncalled bet of 61 returned to P2
+P2 wins the pot (4)
+
+Hand #89, P1 (-1670), P2 (1670)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [2d 6h]
+Dealt to P2 [2h 5h]
+P1 raises to 36
+P2 folds
+Uncalled bet of 34 returned to P1
+P1 wins the pot (4)
+
+Hand #90, P2 (1668), P1 (-1668)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Jc As]
+Dealt to P1 [3c 5h]
+P2 folds
+P1 wins the pot (3)
+
+Hand #91, P1 (-1667), P2 (1667)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [3h 3s]
+Dealt to P2 [8h 6h]
+P1 raises to 72
+P2 calls
+*** FLOP *** (144) [3d 8s 2s]
+P2 discards 8h for 9h
+P1 checks
+P2 checks
+P1 bets 113
+P2 folds
+Uncalled bet of 113 returned to P1
+P1 wins the pot (144)
+
+Hand #92, P2 (1595), P1 (-1595)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [9d 6s]
+Dealt to P1 [Kd 6d]
+P2 folds
+P1 wins the pot (3)
+
+Hand #93, P1 (-1594), P2 (1594)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Kd 7c]
+Dealt to P2 [2h 9c]
+P1 raises to 40
+P2 raises to 81
+P1 folds
+Uncalled bet of 41 returned to P2
+P2 wins the pot (80)
+
+Hand #94, P2 (1634), P1 (-1634)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [8d 2c]
+Dealt to P1 [8c 9s]
+P2 raises to 186
+P1 folds
+Uncalled bet of 184 returned to P2
+P2 wins the pot (4)
+
+Hand #95, P1 (-1636), P2 (1636)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [5s Qd]
+Dealt to P2 [3s Ts]
+P1 raises to 72
+P2 folds
+Uncalled bet of 70 returned to P1
+P1 wins the pot (4)
+
+Hand #96, P2 (1634), P1 (-1634)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [6s Th]
+Dealt to P1 [Ad 2d]
+P2 calls
+P1 raises to 91
+P2 calls
+*** FLOP *** (182) [9h 7d 6h]
+P1 discards 2d for 6d
+P2 discards 6s for Js
+P1 checks
+P2 checks
+*** TURN *** (182) [9h 7d 6h] [7c]
+P1 checks
+P2 checks
+P1 checks
+P2 checks
+*** RIVER *** (182) [9h 7d 6h 7c] [3s]
+P1 bets 59
+P2 calls
+P2 shows [Th Js]
+P1 shows [Ad 6d]
+P1 wins the pot (300)
+
+Hand #97, P1 (-1484), P2 (1484)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [Td 9s]
+Dealt to P2 [4h Jd]
 P1 folds
 P2 wins the pot (3)
 
-Hand #96, P2 (-409), P1 (409)
+Hand #98, P2 (1485), P1 (-1485)
 P2 posts the blind of 1
 P1 posts the blind of 2
-Dealt to P2 [Ac 6c]
-Dealt to P1 [4h 6s]
-P2 calls
-P1 checks
-*** FLOP *** (4) [Jd 7h 4s]
-P1 checks
-P2 discards 6c for 2h
-P1 checks
-P2 checks
-*** TURN *** (4) [Jd 7h 4s] [5h]
-P1 checks
-P2 checks
-P1 checks
-P2 checks
-*** RIVER *** (4) [Jd 7h 4s 5h] [Th]
-P1 checks
-P2 bets 127
-P1 folds
-Uncalled bet of 127 returned to P2
-P2 wins the pot (4)
-
-Hand #97, P1 (407), P2 (-407)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [3h Jc]
-Dealt to P2 [9h 7d]
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [Ks 4c Qh]
-P2 discards 7d for Ad
-P1 checks
-*** TURN *** (400) [Ks 4c Qh] [4h]
-P2 discards 9h for 5h
-P1 checks
-*** RIVER *** (400) [Ks 4c Qh 4h] [7s]
-P1 shows [3h Jc]
-P2 shows [Ad 5h]
-P2 wins the pot (400)
-
-Hand #98, P2 (-207), P1 (207)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Ac Tc]
-Dealt to P1 [As 4c]
-P2 raises to 27
-P1 raises to 200
-P2 calls
-*** FLOP *** (400) [7h 6d Ks]
-P1 checks
-P2 discards Ac for Kc
-*** TURN *** (400) [7h 6d Ks] [5d]
-P1 checks
-P2 checks
-*** RIVER *** (400) [7h 6d Ks 5d] [Jd]
-P2 shows [Tc Kc]
-P1 shows [As 4c]
-P2 wins the pot (400)
-
-Hand #99, P1 (7), P2 (-7)
-P1 posts the blind of 1
-P2 posts the blind of 2
-Dealt to P1 [3c 6c]
-Dealt to P2 [6s 6d]
-P1 folds
-P2 wins the pot (3)
-
-Hand #100, P2 (-6), P1 (6)
-P2 posts the blind of 1
-P1 posts the blind of 2
-Dealt to P2 [Tc 9h]
-Dealt to P1 [9d Ac]
-P2 calls
-P1 raises to 200
+Dealt to P2 [6h 3s]
+Dealt to P1 [9s 6s]
 P2 folds
-Uncalled bet of 198 returned to P1
+P1 wins the pot (3)
+
+Hand #99, P1 (-1484), P2 (1484)
+P1 posts the blind of 1
+P2 posts the blind of 2
+Dealt to P1 [2d Th]
+Dealt to P2 [6d 4c]
+P1 raises to 33
+P2 folds
+Uncalled bet of 31 returned to P1
 P1 wins the pot (4)
 
-FINAL: P1 (8) P2 (-8)
+Hand #100, P2 (1482), P1 (-1482)
+P2 posts the blind of 1
+P1 posts the blind of 2
+Dealt to P2 [Qs Jc]
+Dealt to P1 [9c 5d]
+P2 calls
+P1 checks
+*** FLOP *** (4) [8d 3s 9s]
+P1 discards 5d for 6s
+P2 checks
+P1 bets 132
+P2 raises to 198
+P1 folds
+Uncalled bet of 66 returned to P2
+P2 wins the pot (268)
+
+FINAL: P1 (-1616) P2 (1616)
