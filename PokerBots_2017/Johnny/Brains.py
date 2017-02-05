@@ -52,6 +52,7 @@ class AdaptiveBrain:
     def __init__(self, restore_from=[]):
         self.hand_evaluator = HandEvaluator()
         self.Q_gamma = 0.9
+        self.epsilon = 0.995
         self.new_state = []
         
         if restore_from:
@@ -211,7 +212,8 @@ class AdaptiveBrain:
         return -self.bot.temporal_feature_matrix[0,-1]*200.0
         
     def get_epsilon_value(self):
-        return 0.1
+        self.epsilon = 0.995*self.epsilon
+        return self.epsilon
             
     def make_decision(self, bot):
         print("Making Q decision")
