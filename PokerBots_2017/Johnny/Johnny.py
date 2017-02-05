@@ -7,8 +7,10 @@ from random import sample
 import copy as cp
 from HandEvaluator import HandEvaluator
 from Brains import RationalBrain
+from Brains import AdaptiveBrain
 
-np.set_printoptions(linewidth=150)
+
+np.set_printoptions(linewidth=300)
 
 
 class Johnny:
@@ -29,14 +31,12 @@ class Johnny:
         my_bank = our current bankroll 
         their_bank = their current bankroll
         time_bank = cumulative time remaining in the match
-        
-        
     """
     
     
-    def __init__(self, bot_name="P1", brain=RationalBrain):
+    def __init__(self, bot_name="P1", brain=AdaptiveBrain, restore_from=[]):
         self.bot_name = bot_name
-        self.brain = brain()
+        self.brain = brain(restore_from)
         self.state = {}
         self.reset_hand()
         
@@ -47,6 +47,7 @@ class Johnny:
         self.hand['pot_size'] = []
         self.temporal_feature_matrix = []
         self.possible_actions = []
+        self.brain.new_state = []
         
     
     
@@ -69,10 +70,15 @@ class Johnny:
         amt = int(splits[1])
         winner = splits[2]
         
+        if len(self.temporal_feature_matrix) > 0:
+            current_stake = self.temporal_feature_matrix[0,-1]*200.0
+        else: 
+            current_stake = 2 # we were the big blind.
+        
         if winner == self.bot_name:
-            return amt/2
+            return amt-current_stake
         else:
-            return -amt/2
+            return -current_stake
         
             
     def parse_hand_over(self, data_splits):
@@ -86,7 +92,7 @@ class Johnny:
         num_last_actions = int(data_splits[counter])
         counter += 1
         self.hand['action_history'].append(data_splits[counter:counter+num_last_actions-1])
-        self.hand['result'] = self.parse_win_result(data_splits[counter+num_last_actions-1])
+        self.hand['winnings'] = self.parse_win_result(data_splits[counter+num_last_actions-1])
         counter += num_last_actions
         
         self.state['time_bank'] = float(data_splits[-1])
@@ -120,12 +126,15 @@ class Johnny:
         self.hand['action_history'].append(data_splits[counter:counter+num_last_actions])
         counter += num_last_actions
         
+        self.hand['winnings'] = 0 # if we're in a get action packet, then we haven't won anything yet.
+        
         num_legal_actions = int(data_splits[counter])
         counter += 1
         self.possible_actions = data_splits[counter:counter+num_legal_actions]
         counter += num_legal_actions
         
         self.state['time_bank'] = float(data_splits[-1])
+        
 
     def parse_new_hand(self, data_splits):
         # NEWHAND handId button holeCard1 holeCard2 myBank otherBank timeBank
@@ -172,7 +181,8 @@ class Johnny:
                                                           self.build_temporal_feature_vector(al[i])))
             
             
-            
+   
+    
     def build_temporal_feature_vector(self, performed_action):
         # Performed actions to expect.
         # BET:amount[:actor]
@@ -189,35 +199,36 @@ class Johnny:
         # WIN:amount:actor
         
         NFEATURES = 5
-        STACKSIZE = 200
+        STACKSIZE = 200.0
         hero_idx = 0
         villain_idx = 1
         street_idx = 2
         hero_discard_idx = 3
         villain_discard_idx = 4
         
-        if len(self.temporal_feature_matrix) == 0: # if has not been initialized
-            street = 0 # preflop
-        else:
-            street = np.max(self.temporal_feature_matrix[2])
+        street = self.get_street()
+        
             
               
         splits = performed_action.split(":")
         fv = np.zeros((NFEATURES,1))
         if splits[0] == "BET":
-            actor_idx = self.get_actor_idx(splits[-1])    
-            amount = float(splits[1])
-            fv[actor_idx] = amount/STACKSIZE
+            actor_idx = self.get_actor_idx(splits[-1])  
+            amount = float(splits[1]) 
+            fv[actor_idx] = amount/STACKSIZE + np.max(self.temporal_feature_matrix[actor_idx])
+            fv[1-actor_idx] = self.temporal_feature_matrix[1-actor_idx,-1]
             fv[street_idx] = street                    
         elif splits[0] == "CALL":
             actor_idx = self.get_actor_idx(splits[-1])    
             player_to_call = 1 - actor_idx
             call_amt = np.max(self.temporal_feature_matrix[player_to_call])
             fv[actor_idx] = call_amt
+            fv[1-actor_idx] = self.temporal_feature_matrix[1-actor_idx,-1]
             fv[street_idx] = street
         elif splits[0] == "CHECK":
             actor_idx = self.get_actor_idx(splits[-1])   
-            fv[actor_idx] = 0
+            fv[actor_idx] = self.temporal_feature_matrix[actor_idx,-1]
+            fv[1-actor_idx] = self.temporal_feature_matrix[1-actor_idx,-1]
             fv[street_idx] = street
         elif splits[0] == "DEAL":
             if splits[1] == "FLOP":
@@ -227,23 +238,38 @@ class Johnny:
             elif splits[1] == "RIVER":
                 street = 3
             fv[street_idx] = street
+            fv[0] = self.temporal_feature_matrix[0,-1]
+            fv[1] = self.temporal_feature_matrix[1,-1]
         elif splits[0] == "FOLD":
             # Hand is now over. nothing to do here.
             pass
         elif splits[0] == "POST":
             actor_idx = self.get_actor_idx(splits[-1])  
-            amount = float(splits[1])/STACKSIZE
+            amount = float(splits[1])/STACKSIZE 
             fv[actor_idx] = amount
             fv[street_idx] = street
+            
+            if len(self.temporal_feature_matrix) > 0:
+                fv[1-actor_idx] = self.temporal_feature_matrix[1-actor_idx,-1]
         elif splits[0] == "DISCARD":
             actor_idx = self.get_actor_idx(splits[-1])  
             fv[actor_idx+3] = 1
             fv[street_idx] = street
+            fv[actor_idx] = self.temporal_feature_matrix[actor_idx,-1]
+            fv[1-actor_idx] = self.temporal_feature_matrix[1-actor_idx,-1]
         elif splits[0] == "RAISE":
             # Raise specifies the amount raised to, not the amount raised.
+            # This creates some complications with respect to maintaining the 
+            # temporal feature matrix.
+            # Basically, we need to add the raise value to the latest pot value from
+            # the previous street, since multiple raises and re-raises specify 
+            # only the amount raised to.
             actor_idx = self.get_actor_idx(splits[-1])  
-            amount = float(splits[1])/STACKSIZE
+            max_of_prev_street = self.get_max_of_prev_street(actor_idx)
+            
+            amount = float(splits[1])/STACKSIZE + max_of_prev_street
             fv[actor_idx] = amount
+            fv[1-actor_idx] = self.temporal_feature_matrix[1-actor_idx,-1]
             fv[street_idx] = street  
         elif splits[0] == "REFUND":
             # Hand is now over. nothing to do here.
@@ -257,8 +283,29 @@ class Johnny:
         elif splits[0] == "WIN":
             # Hand is now over. nothing to do here.
             pass
-        
+
+        # Difference betting results?
+#         if True and len(self.temporal_feature_matrix) > 0:
+#             fv[0] -= self.temporal_feature_matrix[0,-1]
+#             fv[1] -= self.temporal_feature_matrix[1,-1]
+            
         return fv
+    
+    def get_street(self):
+        if len(self.temporal_feature_matrix) == 0: # if has not been initialized
+            street = 0 # preflop
+        else:
+            street = np.max(self.temporal_feature_matrix[2])
+        return street
+     
+    def get_max_of_prev_street(self, actor_idx):
+        street = self.get_street() 
+        if street == 0:
+            max_of_prev_street = 0
+        else:
+            mask = self.temporal_feature_matrix[2] == street - 1
+            max_of_prev_street = np.max(self.temporal_feature_matrix[actor_idx, mask])    
+        return max_of_prev_street
     
     def get_actor_idx(self, actor):
         if actor == self.bot_name:
@@ -266,6 +313,18 @@ class Johnny:
         else:
             actor_idx = 1
         return actor_idx
+    
+    def check_synchrony_to_brain(self):
+        if len(self.brain.new_state) > 0:
+            ns = self.brain.new_state[0]
+            print(ns)
+            print(self.temporal_feature_matrix[:ns.shape[0]])
+            
+            states_same = np.array_equal(ns, self.temporal_feature_matrix[:ns.shape[0]])
+            assert()
+        
+        
+        
     
 
     ### ------------------------------- ###
@@ -285,10 +344,15 @@ class Johnny:
 
             # Here is where you should implement code to parse the packets from
             # the engine and act on it. We are just printing it instead.
-            print("PACKET -> ", data)
+            print(data)
             self.parse_data(data)
             self.update_temporal_feature_matrix()
+            #self.check_synchrony_to_brain()
             
+            
+            # First before taking our next action, let's learn from the move we 
+            # made at the last decision point.
+            self.brain.learn_from_last_action(self)
             
             # When appropriate, reply to the engine with a legal action.
             # The engine will ignore all spurious responses.
@@ -298,11 +362,10 @@ class Johnny:
             # character (\n) or your bot will hang!
             word = data.split()[0]
             if word == "GETACTION":
-                
                 action = self.brain.make_decision(self)
-                print(action)
                 s.send(action + "\n")
             elif word == "REQUESTKEYVALUES":
+                self.brain.Q.save(self.bot_name + '.h5')
                 # At the end, the engine will allow your bot save key/value pairs.
                 # Send FINISH to indicate you're done.
                 s.send("FINISH\n")
